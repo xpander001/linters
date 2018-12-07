@@ -1,0 +1,29 @@
+{
+  "name": "@xpander001/eslint-config",
+  "description": "Eslint config based on airbnb",
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/xpander001/linters.git"
+  },
+  "author": "Ander Suarez <ander@unbound.com>",
+  "bugs": {
+    "url": "https://github.com/xpander001/linters/issues"
+  },
+  "homepage": "https://github.com/xpander001/linters#readme",
+  "devDependencies": {
+    "lerna": "^3.5.1"
+  },
+  "dependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1"
+  },
+  "peerDependencies": {
+    "eslint": "^5.9.0"
+  }
+}
