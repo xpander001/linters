@@ -1,0 +1,18 @@
+{
+  "name": "linters",
+  "private": true,
+  "description": "A set of linters to be shared across apps",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/xpander001/linters.git"
+  },
+  "author": "Ander Suarez <ander@unbound.com>",
+  "bugs": {
+    "url": "https://github.com/xpander001/linters/issues"
+  },
+  "homepage": "https://github.com/xpander001/linters#readme",
+  "devDependencies": {
+    "lerna": "^3.5.1"
+  }
+}
