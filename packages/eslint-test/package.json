@@ -1,0 +1,9 @@
+{
+  "name": "@xpander001/eslint-test",
+  "private": true,
+  "description": "test xpander001 eslint config",
+  "devDependencies": {
+    "lerna": "^3.5.1",
+    "@xpander001/eslint-config": "0.0.0"
+  }
+}
