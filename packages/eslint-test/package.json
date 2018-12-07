@@ -6,6 +6,6 @@
     "eslint": "^5.9.0"
   },
   "dependencies": {
-    "eslint-config-xpander001": "0.0.1"
+    "eslint-config-xpander": "0.0.1"
   }
 }
