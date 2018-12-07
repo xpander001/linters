@@ -1,6 +1,7 @@
 {
-  "name": "@xpander001/eslint-config",
-  "version": "0.0.0",
+  "name": "eslint-config-xpander001",
+  "main": "index.js",
+  "version": "0.0.1",
   "description": "Eslint config based on airbnb",
   "files": [
     "index.js"
@@ -14,9 +15,6 @@
     "url": "https://github.com/xpander001/linters/issues"
   },
   "homepage": "https://github.com/xpander001/linters#readme",
-  "devDependencies": {
-    "lerna": "^3.5.1"
-  },
   "dependencies": {
     "eslint": "^5.9.0",
     "eslint-config-airbnb": "^17.1.0",
