@@ -1,7 +1,7 @@
 {
   "name": "@xpander001/eslint-config-xpander001",
   "main": "index.js",
-  "version": "0.0.2",
+  "version": "0.0.0",
   "description": "Eslint config based on airbnb",
   "files": [
     "index.js"
