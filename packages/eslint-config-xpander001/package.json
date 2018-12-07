@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-xpander",
+  "name": "@xpander001/eslint-config-xpander001",
   "main": "index.js",
   "version": "0.0.2",
   "description": "Eslint config based on airbnb",
@@ -16,11 +16,13 @@
   },
   "homepage": "https://github.com/xpander001/linters#readme",
   "dependencies": {
-    "eslint": "^5.9.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-react": "^7.11.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0"
   },
   "peerDependencies": {
     "eslint": "^5.9.0"
