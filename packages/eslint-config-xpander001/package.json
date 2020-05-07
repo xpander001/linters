@@ -1,31 +1,45 @@
 {
   "name": "@xpander001/eslint-config-xpander001",
-  "main": "index.js",
+  "main": ".eslintrc.js",
   "version": "0.0.1",
   "description": "Eslint config based on airbnb",
   "files": [
-    "index.js"
+    ".prettierrc.js"
   ],
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/xpander001/linters.git"
   },
-  "author": "Ander Suarez <ander@unbound.com>",
+  "author": "Ander Suarez <me@andersuarez.com>",
   "bugs": {
     "url": "https://github.com/xpander001/linters/issues"
   },
+  "scripts": {
+    "lint": "eslint *.js"
+  },
   "homepage": "https://github.com/xpander001/linters#readme",
   "dependencies": {
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jsx-a11y": "^6.1.2",
-    "eslint-plugin-react": "^7.11.1"
+    "babel-eslint": "^10.1.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-prettier": "^6.10.1"
   },
   "devDependencies": {
-    "eslint": "^5.9.0"
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^2.5.1",
+    "prettier": "^2.0.4"
   },
   "peerDependencies": {
-    "eslint": "^5.9.0"
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^2.5.1",
+    "prettier": "^2.0.4"
   },
   "gitHead": "64b39d1c869203d4747f539a6374720f2a876b25"
 }
